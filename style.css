@@ -1,0 +1,67 @@
+#gamezone{
+    background: rgb(250,247,9);
+    background: linear-gradient(233deg, rgba(250,247,9,1) 0%, rgba(255,0,0,1) 100%);
+    height: 350px;
+    width: 650px;
+    border: 3px solid black ;
+    margin-left: 33%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+body{
+    background-image: url(https://pm1.aminoapps.com/6606/c53fb056b282d6a698ba3d2c6d2c20153e673bf0_00.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.character{
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+    background-image: url(https://sun9-16.userapi.com/impf/CyvqfFLkX0fcZznvqjWoX1q9gPmPf27N5C01XQ/G5YesSf8egM.jpg?size=480x480&quality=96&sign=05c89b7ebe3437a64bee26aa6bf5dda9&type=album);
+    background-size: cover;
+    background-position: center;
+    display: none;
+
+}
+
+
+.naruto{
+    background-image: url(https://icdn.lenta.ru/images/2023/03/10/03/20230310035249932/wide_16_9_3dab80497815526d09a497c90aeea2d7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+#play{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: rgb(190,188,215);
+    background: linear-gradient(90deg, rgba(190,188,215,1) 0%, rgba(0,0,0,1) 100%);
+}
+h1{
+    color: yellow;
+}
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+#score{
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    margin-left: 760px;
+    margin-top: 250px;
+    
+}
